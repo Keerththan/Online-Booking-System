@@ -3,14 +3,9 @@
 <head>
     <title>PK</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">  
-	
-
-
+    <link rel="stylesheet" href="css/style.css"> 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
-	
-   
 	<div class="header">
 		<nav>
 			<h2 class="logo"><span>PK&nbsp;</span>Cinemas</h2>
@@ -26,8 +21,7 @@
 	</div>	
 	<hr>
 <div class="main">
-	
-<h1 id="main"class="blbox">BOOK YOUR <br>TICKETS FOR <span class="message">MOVIE</span></h1> <br>
+<h1 id="main"class="blbox">BOOK YOUR <br>TICKETS FOR <span id="typed" class="message"></span></h1> <br>
 <h2 id="submain" class="">Safe,secure,reliable ticketing.Your ticket to live entertiment</h1>
 </div>
 
@@ -119,7 +113,18 @@
 
 	</div>
 
-
-    
 </body>
+
+<!-- Typed cdn -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- Intro Animation -->
+<script>
+	var typed = new Typed("#typed",{
+    strings : ["MOVIE", "EVENT", "SPORT"],
+    typeSpeed : 150,
+    backSpeed: 150,
+    loop : true,
+});
+</script> 
+
 </html>
