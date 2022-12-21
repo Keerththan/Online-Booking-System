@@ -16,6 +16,11 @@
   
 body{
 	 background-image:linear-gradient(180deg,rgb(0, 0, 72),rgb(65, 1, 65));
+	 overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 	
 }
 .blbox
@@ -69,11 +74,9 @@ nav ul li a{
 	text-transform: capitalize;
 	font-size: 24px;
 }
-nav ul li a:hover{
+nav ul li a.active, a:hover{
 	color: #f9004d;
 	transition: .4s;
-	
-	
 }
 .btn{
 	background-color:#f9004d;
@@ -117,7 +120,7 @@ hr{
 
 }
 .banner{
-	background: url(/picture/banner02.jpg);
+	background: url(../picture/banner02.jpg);
 	
 }
 #banner{
@@ -166,7 +169,7 @@ hr{
  
 }
 .bannert{
-	background: url(/picture/banner3.jpg),rgb(55, 1, 78);
+	background: url(../picture/banner3.jpg),rgb(55, 1, 78);
 	background-repeat: repeat, no-repeat;
 	background-blend-mode:lighten;
 	display: flex;
@@ -183,9 +186,9 @@ hr{
 	
 
 }
-.bannertpara{
+/* .bannertpara{
 	
-}
+} */
 #cater1{
 	font-size: 20px;
 	color: rgb(11, 183, 11);
@@ -241,7 +244,7 @@ hr{
   }
  
 #social{
-	padding-left: 70rem;
+	padding-left: 70%;
 	
 }
   .fa {
@@ -300,6 +303,60 @@ address{
 	
 	color: white;
 }
+
+/* Responsive */
+
+/* @media screen and (min-width: 375px) {
+	.logo{
+		font-size: 100px;
+	}
+	#social{
+		padding-left: 20%;
+	}
+	
+  } */
+
+@media screen and (min-width: 600px) and (max-width: 900px )  {
+	.logo{
+		font-size: 15px;
+	}
+	#social{
+		padding-left: 53%;
+	}
+	#main{
+		width: 62%;
+		font-weight: 800;
+		font-size: 35px;
+	}
+	
+  }
+
+@media screen and (min-width: 900px) and (max-width: 1290px )  {
+	.logo{
+		font-size: 20px;
+	}
+	#social{
+		padding-left: 53%;
+	}
+	#main{
+		width: 62%;
+		font-weight: 800;
+		font-size: 55px;
+	}
+	
+  }
+
+@media screen and (min-width: 1290px) {
+	.logo{
+		font-size: 30px;
+	}
+	nav ul li{
+	padding: 5px  10px;
+}
+	#social{
+		padding-left: 65%;
+	}
+  }
 
 
 
