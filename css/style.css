@@ -504,10 +504,57 @@ address{
 .tile:hover ~ .tile {
   transform: translate3d(125px, 0, 0);
 }
+.collection{
+	padding-top: 8%;
+	display: flex;
+	padding-left: 20rem;
+	
 
+}
+.side_content{
+	padding-top: 5rem;
+	padding-right: 2rem;
+}
+div.polaroid {
 
+	width: 33%;
+	background-color: rgb(4, 16, 106);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 28px;
+	
+	margin-left:15px;
+	margin-right: 15px;
+	margin-top: 30px;
 
+  }
+  
+  div.container {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding: 10px 30px;
+	
+  }
+  .con{
+	
+	
+	display: flex;
+	
 
+  }
+  #hrcontent{
+	
+	/*
+	margin-left: 26rem;
+	width: 60%;
+	*/
+	border-color: #4f4f4f;
+  }
+#heading{
+	color: White;
+	font-style: normal;
+	
+}
 
 
 
