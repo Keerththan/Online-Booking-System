@@ -7,6 +7,8 @@
 	
 
   }
+
+ 
  
   
   .message {
@@ -309,6 +311,7 @@ address{
 /* Responsive */
 
 @media screen and (min-width: 300px) and (max-width: 600px )  {
+
 	.logo{
 		font-size: 5px;
 	}
@@ -509,6 +512,17 @@ address{
 	display: flex;
 	padding-left: 24%;
 	
+
+}
+.allcollection{
+	margin-left: 1%;
+	margin-right: auto;
+
+
+
+
+
+
 
 }
 .side_content{
