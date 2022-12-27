@@ -310,59 +310,80 @@ address{
 
 /* Responsive */
 
-@media screen and (min-width: 300px) and (max-width: 600px )  {
+@media screen and (min-width: 480px) and (max-width: 650px )  {
 
-	.logo{
-		font-size: 5px;
-	}
-	#social{
-		padding-left: 53%;
-	}
-	#main{
-		width: 62%;
-		font-weight: 800;
-		font-size: 18px;
-	}
-	nav ul li a{
-		color: white;
-		text-decoration: none;
-		font-weight: bold;
-		text-transform: capitalize;
-		font-size: 4px;
-	}
-	.btn-join{
-		background-color:#f9004d;
-		color: white;
-		text-decoration: none;
-		border: 2px solid transparent;
-		font-weight: bold;
-		padding: 0px 15px;
-		border-radius: 30px;
-		transition: transform .4s; 
-		font-size: 5px;
-	}
-	nav{
-		display: flex;
-		
-		padding-top: 45px;
-		padding-left: 10%;
-		padding-right: 10%;
-	}
-	
-  }
-
-@media screen and (min-width: 600px) and (max-width: 900px )  {
 	.logo{
 		font-size: 15px;
+		width: 100%;
+
 	}
+	.header{
+		padding-left: 120px;
+	}
+
+	
 	#social{
 		padding-left: 53%;
 	}
 	#main{
-		width: 62%;
+		width: 65%;
 		font-weight: 800;
 		font-size: 35px;
 	}
+	.narbar{
+
+		display: inline-block;
+	   }
+	  .navigationmenu{
+		flex-direction: column;
+	
+	}
+	nav ul li a{
+		
+		
+		font-size: 16px;
+	}
+
+	
+  }
+
+@media screen and (min-width: 650px) and (max-width: 900px )  {
+	.logo{
+		font-size: 20px;
+	}
+	#social{
+		padding-left: 53%;
+	}
+	#main{
+		width: 65%;
+		font-weight: 800;
+		font-size: 35px;
+	}
+ 	nav ul li a{
+		
+		
+		font-size: 16px;
+	}
+	
+	
+	nav ul li{
+	
+		list-style-type: none;
+		display: inline-block;
+		padding: 4px  4px;
+	} 
+	.narbar{
+
+		margin-top: 35px;
+		   padding: 2px  2px;
+	   }
+	   .btn-join{
+		
+		padding: 10px 15px;
+		border-radius: 30px;
+		
+	}
+	
 	
   }
 
@@ -378,10 +399,20 @@ address{
 		padding-left: 53%;
 	}
 	#main{
-		width: 62%;
+		width: 80%;
 		font-weight: 800;
 		font-size: 55px;
 	}
+	
+	nav ul li{
+	
+		padding: 5px  5px;
+	}
+	.narbar{
+	 margin-top: 25px;
+		padding: 5px  5px;
+	}
+	
 	
   }
 
