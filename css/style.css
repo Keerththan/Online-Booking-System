@@ -417,11 +417,12 @@ address{
 .collection{
 	padding-top: 8%;
 	display: flex;
-	padding-left: 24%;
+	padding-left: 20%;
 	
 
 }
 .allcollection{
+	padding: 5%;
 	margin-left: 1%;
 	margin-right: auto;
 
@@ -475,6 +476,64 @@ div.polaroid {
 }
 
 /* Responsive */
+@media screen and (max-width: 480px )  {
+
+	.logo{
+		font-size: 30px;
+		width: 100%;
+		text-align: center;
+
+	}
+	
+	
+	#social{
+		padding-left: 53%;
+	}
+	#main{
+		width: 65%;
+		font-weight: 800;
+		font-size: 35px;
+	}
+	.narbar{
+        padding-left: 10%;
+		padding-top: 0%;
+		padding-bottom: 0%;
+		padding-right: 0%;
+		display: flow-root;
+	   }
+	 
+	nav ul li a{
+		
+		
+		font-size: 16px;
+	}
+.collection{
+	padding-left: 0%;
+	margin-left: 0%;
+}
+.header{
+	
+	padding: 0px;
+	height: 38vh;
+	width: 100%;
+
+}
+nav ul li{
+	
+	display: flow-root;
+	text-align: center;
+	
+	padding: 2px  2px;
+} 
+	
+.btn-join{
+	margin-left: 10rem;
+	
+}
+.bannert{
+	height: 25rem;
+}
+  }
 
 @media screen and (min-width: 480px) and (max-width: 650px )  {
 
@@ -516,9 +575,7 @@ div.polaroid {
 	padding: 0px;
 	height: 38vh;
 	width: 100%;
-	
 
-	
 }
 nav ul li{
 	
@@ -573,6 +630,11 @@ nav ul li{
 		border-radius: 30px;
 		
 	}
+	.collection{
+		padding-left: 0%;
+		margin-left: 0%;
+	
+	}
 	
 	
   }
@@ -602,6 +664,12 @@ nav ul li{
 	 margin-top: 25px;
 		padding: 5px  5px;
 	}
+
+	.collection{
+		padding-left: 0%;
+		margin-left: 0%;
+	
+	}
 	
 	
   }
@@ -620,6 +688,7 @@ nav ul li{
 		width: 65%;
 		
 	}
+	
   }
 
 
