@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>PK</title>
 	<meta charset="utf-8">
 	<!-- Bootstrap CSS -->
@@ -9,11 +12,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css"> 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 <body>
 	<div class="header">
-		<nav>
+
+   
+
+		<nav class="narbar">
 			<h2 class="logo"><span>PK&nbsp;</span>Cinemas</h2>
-			<ul>
+			<ul class="navigationmenu">
 				<li><a class="active" href="#">Home</a></li>
 				<li><a href="#">About Us</a></li>
 				<li><a href="#">Services</a></li>
@@ -280,16 +287,10 @@
 	
 
 </div>
+<div class="allcollection">
 <!-- Catogory 1 -->
 <selection class="collection" >
-  <div class="side_content">
-    bjsbjkbfjsbfjsb<br>
-    bjsbjkbfjsbfjsb<br>
-    bjsbjkbfjsbfjsb<br>
-    bjsbjkbfjsbfjsb<br>
-    bjsbjkbfjsbfjsb<br>
-   
-  </div>
+  
   <div>
   <h2 id="heading">MOVIE</h2>
   <hr id="hrcontent">
@@ -343,14 +344,7 @@
 
 <!-- Catogory 2 -->
 <selection class="collection" >
-  <div class="side_content">
-    bjsbjkbfjsbfjsb<br>
-    bjsbjkbfjsbfjsb<br>
-    bjsbjkbfjsbfjsb<br>
-    bjsbjkbfjsbfjsb<br>
-    bjsbjkbfjsbfjsb<br>
-   
-  </div>
+  
   <div>
   <h2 id="heading">LIVE SHOW</h2>
   <hr id="hrcontent">
@@ -401,6 +395,7 @@
 
 </div>
 </selection>
+</div>
 
 
 
@@ -417,7 +412,7 @@
 	<h3 id="offer2">TO GET EXCLUSIVE BENIFITS</h3>
 	<form class="subscribe">
 		<input type="text" id="email" placeholder="Your Email Address">
-		<button type="submit" class="btn-join" id="subscribe">subscribe</button>
+		<button type="submit" class="btn-subs" id="subscribe">subscribe</button>
 	</form>
 	<p>We respect your privacy, so we never share your info</p>
 
@@ -468,7 +463,7 @@
 <!-- Intro Animation -->
 <script>
 	var typed = new Typed("#typed",{
-    strings : ["MOVIE", "EVENT", "SPORT"],
+    strings : ["MOVIE", "EVENT", "DRAMA"],
     typeSpeed : 150,
     backSpeed: 150,
     loop : true,
