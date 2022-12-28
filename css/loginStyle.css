@@ -13,7 +13,8 @@ body{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	background:linear-gradient(to right,rgb(15, 117, 137),lightgreen);
+	background-image:linear-gradient(180deg,rgb(0, 0, 72),rgb(65, 1, 65));
+
 
 }  
 
